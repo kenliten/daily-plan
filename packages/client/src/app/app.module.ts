@@ -19,10 +19,20 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LessonPlanListComponent } from './lesson-plan-list/lesson-plan-list.component';
+import { LessonPlanDetailComponent } from './lesson-plan-detail/lesson-plan-detail.component';
+import { LessonPlanFormComponent } from './lesson-plan-form/lesson-plan-form.component';
+import { ActivityFormComponent } from './activity-form/activity-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    LessonPlanListComponent,
+    LessonPlanDetailComponent,
+    LessonPlanFormComponent,
+    ActivityFormComponent
   ],
   imports: [
     BrowserModule,
